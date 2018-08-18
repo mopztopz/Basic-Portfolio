@@ -47,6 +47,8 @@ footer {
     border-top: #4aaaa5 solid 8px;
     padding-top: 20px;
     font-size: 10px;
+    position: sticky;
+    bottom: 0;
 }
 
 #Main-Logo {
@@ -91,9 +93,9 @@ div.Content_Wrapper {
     width: 64%
 }
 
-.Navigation ul {
+/* .Navigation ul {
     display: inline-block;
-}
+} */
 
 header h1 {
     margin: 0px;
@@ -148,4 +150,24 @@ p.textbox {
 
 .background {
     background-image: url(../images/fff.jpg)
+}
+.imagewrap {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 320px
+}
+
+.bottom-center {
+    position: absolute;
+    top: 160px;
+    background-color: teal;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.imagemargin {
+    margin-bottom: 80px;
+    margin-right: 45px
 }
