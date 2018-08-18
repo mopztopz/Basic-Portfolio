@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Title Shows in the Tab of the page-->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,42 +8,54 @@
     <!--pointing to css file-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+    <style>
+        .imagewrap {position: relative; display: inline-block; text-align: center; width: 320px}
+        .bottom-center {position: absolute; top: 160px; background-color: teal; color: white; width: 100%; padding: 20px 0;}
+        .imagemargin{margin-bottom: 80px;margin-right: 45px}
+    </style>
     <!--Navigation for the site-->
-
-    <!--This is the name on the Navigation-->
-    <header>
-        <div>
-            <h1 id="Main-Logo">Stephen Brown</h1>
-            <nav class="Navigation">
-                <a class="nav-points" href="index.html">About</a>
-                <span class="sep">|</span>
-                <a class="nav-points" href="contact.html">Contact</a>
-                <span class="sep">|</span>
-                <a class="nav-points" href="portfolio.html">Portfolio</a>
-            </nav>
-        </div>
-    </header>
+     <div class="sticky-header">
+        <header>
+            <div>
+                <h1 id="Main-Logo">Stephen Brown</h1>
+                <nav class="Navigation">
+                    <a class="nav-points" href="index.html">About</a>
+                    <span class="sep">|</span>
+                    <a class="nav-points" href="contact.html">Contact</a>
+                    <span class="sep">|</span>
+                    <a class="nav-points" href="portfolio.html">Portfolio</a>
+                </nav>
+            </div>
+        </header>
+    </div>
     <div class="Content_Wrapper">
         <div class="Content">
-            <h2>Portfolio</h2>
+            <h1 class="About-ME-MC">Portfolio</h1>
             <hr>
-            <div class="pi">
-                <img src="assets/images/fff.jpg" />                    
-                <div >
-                    <p class="textbox">this is a test</p>
-                </div>
+            <div class="imagewrap imagemargin">
+                <img src="assets/images/boyinsuit.jpg">
+                <div class="bottom-center">Hangman</div>
             </div>
-               
-            
+            <div class="imagewrap">
+                <img src="assets/images/laptopscreen.jpg">
+                <div class="bottom-center">RPG Game</div>
+            </div>                     
+            <br>
+            <div class="imagewrap imagemargin">
+                    <img src="assets/images/tablethand.jpg">
+                    <div class="bottom-center">Trivia Game</div>
+                </div>
+                <div class="imagewrap">
+                    <img src="assets/images/headphone.jpg">
+                    <div class="bottom-center">Rutgers Info Widget</div>
+                </div>      
+                <br>  
+                <div class="imagewrap">
+                        <img src="assets/images/laptop.jpg">
+                        <div class="bottom-center">Rock Papper Scissors</div>
+                    </div>              
         </div>
-
-
-
-    </div>
-
-
     <div class="footer">
         <footer>
             copyright &copy;
